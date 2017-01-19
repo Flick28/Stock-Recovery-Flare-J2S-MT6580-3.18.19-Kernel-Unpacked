@@ -1,0 +1,52 @@
+compress_level:6
+slink charger /sbin/healthd 0644
+dir data 0771
+file default.prop initrd/default.prop 0644
+dir dev 0755
+file disableswap.sh initrd/disableswap.sh 0644
+file enableswap.sh initrd/enableswap.sh 0644
+dir etc 0755
+file etc/recovery.fstab initrd/etc\recovery.fstab 0644
+file factory_init.project.rc initrd/factory_init.project.rc 0644
+file factory_init.rc initrd/factory_init.rc 0644
+file file_contexts initrd/file_contexts 0644
+file fstab.mt6580 initrd/fstab.mt6580 0640
+file init initrd/init 0750
+file init.rc initrd/init.rc 0750
+file meta_init.modem.rc initrd/meta_init.modem.rc 0644
+file meta_init.project.rc initrd/meta_init.project.rc 0644
+file meta_init.rc initrd/meta_init.rc 0644
+dir oem 0755
+dir proc 0755
+file property_contexts initrd/property_contexts 0644
+dir res 0755
+dir res/images 0755
+file res/images/erasing_text.png initrd/res\images\erasing_text.png 0644
+file res/images/error_text.png initrd/res\images\error_text.png 0644
+file res/images/font.png initrd/res\images\font.png 0644
+file res/images/icon_error.png initrd/res\images\icon_error.png 0644
+file res/images/icon_installing.png initrd/res\images\icon_installing.png 0644
+file res/images/installing_text.png initrd/res\images\installing_text.png 0644
+file res/images/no_command_text.png initrd/res\images\no_command_text.png 0644
+file res/images/progress_empty.png initrd/res\images\progress_empty.png 0644
+file res/images/progress_fill.png initrd/res\images\progress_fill.png 0644
+file res/images/stage_empty.png initrd/res\images\stage_empty.png 0644
+file res/images/stage_fill.png initrd/res\images\stage_fill.png 0644
+file res/keys initrd/res\keys 0644
+dir sbin 0750
+file sbin/adbd initrd/sbin\adbd 0750
+file sbin/healthd initrd/sbin\healthd 0750
+file sbin/mkfs.f2fs initrd/sbin\mkfs.f2fs 0750
+file sbin/multi_init initrd/sbin\multi_init 0750
+file sbin/recovery initrd/sbin\recovery 0750
+slink sbin/ueventd ../init 0750
+slink sbin/watchdogd ../init 0750
+file seapp_contexts initrd/seapp_contexts 0644
+file selinux_version initrd/selinux_version 0644
+file sepolicy initrd/sepolicy 0644
+file service_contexts initrd/service_contexts 0644
+dir sys 0755
+dir system 0755
+dir tmp 0755
+file ueventd.mt6580.rc initrd/ueventd.mt6580.rc 0644
+file ueventd.rc initrd/ueventd.rc 0644

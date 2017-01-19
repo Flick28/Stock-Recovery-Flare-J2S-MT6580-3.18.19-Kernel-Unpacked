@@ -1,0 +1,8 @@
+base:0x80000000
+ramdisk_addr:0x84000000
+second_addr:0x80f00000
+tags_addr:0x8e000000
+page_size:0x800
+name:1477924288
+cmdline:bootopt=64S3,32S1,32S1
+padding_size:0x800
